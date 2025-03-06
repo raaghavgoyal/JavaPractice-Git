@@ -7,6 +7,8 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         //Take input from user till the user does not press x or X
         int ans = 0;
+        System.out.println("Note: Press x or X to exit.");
+        System.out.println("Welcome to the calculator application!");
         while(true){
             // take operator as input
             System.out.print("Enter the operator: ");
