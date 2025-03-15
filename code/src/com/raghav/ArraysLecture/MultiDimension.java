@@ -20,6 +20,7 @@ public class MultiDimension {
                 {7,8,9}
         };
         System.out.println(Arrays.toString(arr[0]));
+        //just a comment
 
     }
 }
