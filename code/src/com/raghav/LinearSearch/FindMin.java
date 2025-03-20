@@ -1,4 +1,4 @@
-package com.raghav.Searching;
+package com.raghav.LinearSearch;
 
 public class FindMin {
     public static void main(String[] args) {

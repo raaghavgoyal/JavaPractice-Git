@@ -1,4 +1,4 @@
-package com.raghav.Searching;
+package com.raghav.LinearSearch;
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 public class QEvenDigits {
     public static void main(String[] args) {

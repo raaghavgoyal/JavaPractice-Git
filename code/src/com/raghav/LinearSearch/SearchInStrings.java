@@ -1,4 +1,4 @@
-package com.raghav.Searching;
+package com.raghav.LinearSearch;
 
 import java.util.Arrays;
 

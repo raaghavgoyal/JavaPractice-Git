@@ -1,4 +1,4 @@
-package com.raghav.Searching;
+package com.raghav.LinearSearch;
 // https://leetcode.com/problems/richest-customer-wealth/
 public class QMaxWealth {
     public static void main(String[] args) {
