@@ -3,7 +3,7 @@ package com.raghav.BiarySearch;
 public class OrderAgnosticBS {
     public static void main(String[] args) {
         int [] arr = {1, 2, 3, 4, 5, 6 ,6 ,6 ,6 ,6, 6, 7, 8, 9};
-        int target = 6;
+        int target = 6;//
         //we don't know if it's sorted in ascending or descending order
         int ans = orderAgnosticBS(arr, target);
         System.out.println(ans);
