@@ -1,4 +1,4 @@
-package com.raghav.functionsAndMethods;
+package com.raghav.FunctionsAndMethods;
 
 import java.util.Scanner;
 

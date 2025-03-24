@@ -1,6 +1,4 @@
-package com.raghav.functionsAndMethods;
-
-import java.util.Arrays;
+package com.raghav.FunctionsAndMethods;
 
 public class Overloading {
     //number or type of arguments should be different

@@ -1,4 +1,4 @@
-package com.raghav.functionsAndMethods;
+package com.raghav.FunctionsAndMethods;
 //shadowing is the practice of using two variable with same name within the scope that
 //overlaps.
 public class Shadowing {

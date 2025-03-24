@@ -1,4 +1,4 @@
-package com.raghav.functionsAndMethods;
+package com.raghav.FunctionsAndMethods;
 class Main {
     public static void main(String args[]){
         final int i=10;

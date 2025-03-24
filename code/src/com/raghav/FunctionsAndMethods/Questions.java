@@ -1,6 +1,4 @@
-package com.raghav.functionsAndMethods;
-
-import java.util.Scanner;
+package com.raghav.FunctionsAndMethods;
 
 import static java.lang.Math.pow;
 

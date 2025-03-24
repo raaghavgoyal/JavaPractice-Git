@@ -1,6 +1,5 @@
-package com.raghav.functionsAndMethods;
+package com.raghav.FunctionsAndMethods;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ChangeValue {

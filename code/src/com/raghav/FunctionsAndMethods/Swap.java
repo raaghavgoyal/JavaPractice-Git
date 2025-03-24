@@ -1,4 +1,4 @@
-package com.raghav.functionsAndMethods;
+package com.raghav.FunctionsAndMethods;
 
 public class Swap {
     public static void main(String[] args) {
