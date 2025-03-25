@@ -42,7 +42,8 @@ public class BinarySearch {
         }
         return -1;
     }
-    private static int binarySearch(int[] arr, int target, int start, int end) {
+    //this is wrong binary search which I made using recursion
+    private static int selfWrongBinarySearch(int[] arr, int target, int start, int end) {
         int mid = start + (end-start)/2;
         if(start>=end){
             return -1;
@@ -51,10 +52,10 @@ public class BinarySearch {
             return mid;
         }
         else if(arr[mid]<target) {
-            binarySearch(arr,target,mid+1,end);
+            selfWrongBinarySearch(arr,target,mid+1,end);
         }
         else{
-            binarySearch(arr,target,start,mid-1);
+            selfWrongBinarySearch(arr,target,start,mid-1);
         }
         return -1;
 
