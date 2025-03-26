@@ -12,7 +12,6 @@ public class InfiniteArray {
         int ans = ans(arr, target);
         System.out.println(ans);
     }
-
     private static int ans(int[] arr, int target) {
         int start = 0;
         int end = 1;
