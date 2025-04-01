@@ -14,7 +14,7 @@ public class RowColMatrix {
     }
     static int [] search(int [][] matrix, int target){
         int r = 0;
-        int c = matrix[0].length -1;
+        int c = matrix[0].length -1;//handle this in case of empty matrix
         while(r< matrix.length && c>= 0){
             if(matrix[r][c] == target){
                 return new int[]{r,c};
