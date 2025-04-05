@@ -1,7 +1,7 @@
 package com.raghav.Sorting;
 
 import java.util.Arrays;
-
+//Bubble Sort algorithm
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {-1,7,-32,0,89};
