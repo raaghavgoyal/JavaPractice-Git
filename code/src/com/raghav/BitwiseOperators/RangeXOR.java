@@ -2,7 +2,7 @@ package com.raghav.BitwiseOperators;
 
 public class RangeXOR {
     public static void main(String[] args) {
-        //range xor for a till b => xor(b)^xor(a-1);
+        // Range xor for a till b => xor(b)^xor(a-1);
         int a = 3;
         int b = 9;
 
