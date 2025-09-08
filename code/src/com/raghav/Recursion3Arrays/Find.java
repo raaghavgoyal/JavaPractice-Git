@@ -14,6 +14,8 @@ public class Find {
         ArrayList<Integer> ans = findAllIndexUsingArrayList(arr, 4, 0, list);
         System.out.println(ans);
         System.out.println(list);//both list and ans are pointing to the same list
+
+        System.out.println(findAllIndexUsingArrayList2(arr, 4, 0));
     }
 
     static boolean find(int[] arr , int target, int index){
@@ -64,5 +66,24 @@ public class Find {
             list.add(index);
         }
         return findAllIndexUsingArrayList(arr, target, index + 1, list);
+    }
+
+
+    //not a good approach as we are creating object again and again in every function call
+    static ArrayList findAllIndexUsingArrayList2(int[] arr , int target, int index){
+        ArrayList<Integer> list = new ArrayList<>();
+
+        if(index == arr.length-1){
+            return list;
+        }
+        //this will contain answer for that function call only
+        if(arr[index] == target){
+            list.add(index);
+        }
+        ArrayList<Integer> ansFromBelowCalls =  findAllIndexUsingArrayList2(arr, target, index + 1);
+
+        list.addAll(ansFromBelowCalls);
+
+        return list;
     }
 }
