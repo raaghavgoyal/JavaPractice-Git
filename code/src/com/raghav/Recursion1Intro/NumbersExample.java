@@ -1,4 +1,4 @@
-package com.raghav.Recursion;
+package com.raghav.Recursion1Intro;
 
 public class NumbersExample {
     public static void main(String[] args) {
