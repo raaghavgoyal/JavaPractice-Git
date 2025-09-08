@@ -32,4 +32,13 @@ public class Nto1 {
         funBoth(n-1);
         System.out.println(n);
     }
+    static void concept(int n){
+        if (n == 0){
+            return;
+        }
+        System.out.println(n);
+        concept(--n);
+        //fun(n--);
+        //n-- vs --n
+    }
 }
