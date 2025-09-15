@@ -1,7 +1,7 @@
 package Test;
 
 public class sql {
-    //SQL questions
+    //SQL questionss
     //list all employess (emp name  => dept name)
     // of all departments for which employe age> 20 and department band > 10000
 
